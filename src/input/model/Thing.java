@@ -1,6 +1,5 @@
 package input.model;
 
-
 public class Thing 
 {
 	private String name;
@@ -19,5 +18,12 @@ public class Thing
 		this.age = age;
 		this.name = name;
 		this.weight = weight;
+	}
+	
+	public String toString()
+	{
+		String thingInfo = name + " is " + age + " years old, and weighs " + weight + " lbs.";
+		
+		return thingInfo;
 	}
 }

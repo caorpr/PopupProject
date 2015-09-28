@@ -9,6 +9,5 @@ public class PopupRunner
 		PopupController myPopupController = new PopupController();
 		myPopupController.start();
 	}
-	
 
 }
