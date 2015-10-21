@@ -1,11 +1,15 @@
 package input.view;
 
 import javax.swing.JOptionPane;
+
+
 /**
  * this class provides popups for input and output.
  * @author cand3952
  *
  */
+
+
 
 public class PopupDisplay
 {
@@ -24,10 +28,16 @@ public class PopupDisplay
 		
 		return answer;
 	}
+	
+	
+	
 	/**
 	 *
 	 * @param input
 	 */
+	
+	
+	
 	
 	public void displayResponse(String input)
 	{
